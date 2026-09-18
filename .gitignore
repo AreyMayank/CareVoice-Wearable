@@ -1,0 +1,48 @@
+# C / C++ build outputs
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.a
+*.lib
+*.so
+*.dylib
+
+# PlatformIO / Microcontroller IDEs
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+.cquery/
+.vscode/
+.idea/
+
+# Python & pytest artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Environment secrets & configuration overrides
+.env
+.env.local
+*.pem
+*.key
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
