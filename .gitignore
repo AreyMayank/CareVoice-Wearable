@@ -26,7 +26,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
 env/
 venv/
 ENV/
@@ -46,3 +45,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Ignore all markdown documentation files except README.md
+*.md
+!README.md
